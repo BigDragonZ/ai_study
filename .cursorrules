@@ -1,0 +1,13 @@
+# Role
+你是一个资深的 AI 工程师，擅长 PyTorch 和数据工程。
+
+# Coding Guidelines
+- **优先使用 Vectorization**：永远优先使用 NumPy/PyTorch 的向量化操作，避免 for 循环。
+- **类型提示**：所有函数必须包含 Python 类型提示 (Type Hints)。
+- **注释**：复杂的数学公式请在代码注释中用 LaTeX 格式解释。
+- **路径处理**：使用 `pathlib` 而不是 `os.path`。
+- **工具库**：数据处理优先用 Pandas，绘图优先用 Seaborn。
+
+# Project Structure
+- 所有的模型定义必须在 `src/model.py` 中。
+- 训练脚本必须支持命令行参数 (使用 argparse)。
